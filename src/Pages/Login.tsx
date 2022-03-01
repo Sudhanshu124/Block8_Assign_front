@@ -112,7 +112,7 @@ function Login() {
                   <label htmlFor="Email">Password</label>
                   <StyledInput onChange={(e)=>setRegisterValues({...registerValues,password:e.target.value})}  type="password" name="password" placeholder="Plese enter your password" value={registerValues.password}/>
                   {registerSuccess && <p>You have been successfully Registered! Redirecting to Login in 3 Seconds</p>}
-                  <Button type="submit" onClick={(e)=>handleSignupSubmit(e)}>Login</Button>
+                  <Button type="submit" onClick={(e)=>handleSignupSubmit(e)}>Sign up</Button>
                 </RegisterForm>
               }
         </Card>
